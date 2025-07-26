@@ -11,7 +11,6 @@ router.post("/players/", PlayerController.postPlayer)
 router.delete("players/:id", PlayerController.deletePlayer)
 router.patch("/players/:id", PlayerController.updatePlayer )
 router.get("/players/:id", PlayerController.getPlayerById)
-
 router.get("/clubs", ClubsController.getClubs)
 
 
