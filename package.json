@@ -1,0 +1,35 @@
+{
+  "name": "recriando-a-api-da-champions-league-com-node.js-e-express",
+  "version": "1.0.0",
+  "description": "Este projeto foi criado para aprender o conceito de uma API utilizando um framework (Express)",
+  "main": "index.js",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
+    "start:dist": "tnpm run dist && node dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasBatistaX/Recriando-a-API-da-Champions-League-com-Node.js-e-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LucasBatistaX/Recriando-a-API-da-Champions-League-com-Node.js-e-Express/issues"
+  },
+  "homepage": "https://github.com/LucasBatistaX/Recriando-a-API-da-Champions-League-com-Node.js-e-Express#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
